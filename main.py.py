@@ -53,6 +53,8 @@ for _, row in matches_df.iterrows():
         else:
             match_df = pd.DataFrame([match_details])
             logging.info(f"Match DataFrame:\n {match_df}")
+            match_df.to_csv(f"data/match_integrated{row['matchID']}.csv", index=False)
+            logging.info(f"Match details for match ID {row['matchID']} saved.")
 
 
 """Filter matches for specific teams
