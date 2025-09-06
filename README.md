@@ -28,7 +28,7 @@ It demonstrates **data engineering & analytics skills** by:
 
 - 📡 Fetches **match results** and **league tables** directly from the API
 - 🧹 Cleans & transforms raw JSON into structured **pandas DataFrames**
-- 📊 Saves output as CSV (`all_matches.csv`, `league_table.csv`)
+- 📊 Saves output as CSV (`all_matches.csv`, `league_table.csv`, `match_integrated{id}.csv`)
 - 📝 Comprehensive logging of each pipeline step (`project.log`)
 - 🔍 (Optional) Analyze logs via `analyze_logs.py`
 - 🚀 Roadmap: Store data in **SQL**, orchestrate with **Airflow**, and visualize in **Power BI**
