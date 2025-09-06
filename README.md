@@ -37,19 +37,21 @@ It demonstrates **data engineering & analytics skills** by:
 
 ## 📂 Project Structure
 
-OpenLiga/
-├── main.py
-├── openliga/
-│ ├── api_handler.py
-│ ├── data_processing.py
-│ ├── utils.py
-├── data/
-│ ├── all_matches.csv
-│ ├── league_table.csv
-│ └── project.log
-├── analyze_logs.py
-├── requirements.txt
-└── README.md
+📂 **OpenLiga/**  
+├─ `main.py`  
+├─ **openliga/**  
+│ ├─ `api_handler.py`  
+│ ├─ `data_processing.py`  
+│ └─ `utils.py`  
+├─ **data/**  
+│ └─ `.gitkeep`  
+├─ **scripts/**  
+│ └─ `analyze_logs.py`  
+├─ **docs/**  
+│ └─ `architecture.png`  
+├─ `requirements.txt`  
+├─ `.gitignore`  
+└─ `README.md`
 
 ## How to Use
 
